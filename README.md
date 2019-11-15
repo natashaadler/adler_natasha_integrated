@@ -30,19 +30,19 @@ In the 'images' subfolder is where all the optimized images (webfiles) are store
 
 ### Includes
 
-In the 'includes' folder is where link to code files form other code files would be. This folder is here for habit. 
+In the 'includes' folder is where link to code files from other code files would be. This folder is here for habit. 
 
 ### Assets
 
-In the 'assets' folder is where all my working files (.psd & .ai) files are which are not intended for the web. 
+In the 'assets' folder is where all the working files(.psd & .ai) are, which are not intended for the web. 
 
 ### Javascript
 
-This folder is just currently here for habbit.
+The 'js' folder is currently here for habbit.
 
 ### Cascade Styling Sheets
 
-This folder just contains a subfolder called main.css .
+The 'css' folder contains a subfolder called main.css .
 
 
 ## Licence
