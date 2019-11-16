@@ -22,7 +22,7 @@ In the Terminal, clone the project, `cd to your directory`, `cd to the repo file
 
 ## File Manifest
 
-You will find 5 subforlders, including 'images', 'assets','includes', 'js', and 'css'. You will also find index.html, about.html, contact.html and main.css in the css folder .
+You will find 5 subfolders, including 'images', 'assets','includes', 'js', and 'css'. You will also find index.html, about.html, contact.html and main.css in the css folder .
 
 ### Images
 
@@ -30,19 +30,19 @@ In the 'images' subfolder is where all the optimized images (webfiles) are store
 
 ### Includes
 
-In the 'includes' folder is where link to code files from other code files would be. This folder is here for habit. 
+In the 'includes' subfolder is where link to code files from other code files would be. This folder is here for habit. 
 
 ### Assets
 
-In the 'assets' folder is where all the working files(.psd & .ai) are, which are not intended for the web. 
+In the 'assets' subfolder is where all the working files(.psd & .ai) are, which are not intended for the web. 
 
 ### Javascript
 
-The 'js' folder is currently here for habbit.
+The 'js' subfolder is currently here for habbit.
 
 ### Cascade Styling Sheets
 
-The 'css' folder contains a subfolder called main.css .
+The 'css' subfolder contains a subfolder called main.css .
 
 
 ## Licence
