@@ -120,14 +120,14 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	line-height: 250px;
 }
 
-#promoText 
-{
-	width: 600px;
-}
-
 #promoImage 
 {
 	margin-left: auto;
+	width: 600px;
+}
+
+#promoText 
+{
 	width: 280px;
 }
 
