@@ -1,22 +1,10 @@
 @charset "UTF-8";
-/* CSS Document */
-
-/*Remove this rule, this is only for demo purposes to make the boxes black with white text
-The line height on the <p> tag gives each box a height value*/
-
-p
-{
-	color: #fff;
-	line-height: 100px;
-	background: #000;
-	text-align: center;
-	margin: 0;
-}
+/* Flow Yoga Studio CSS Document */
 
 /*basic reset*/
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
 
-div,p,body,header,footer,section,article,nav 
+div,p,body,header,footer,section,article,nav
 { 
 	margin: 0; 
 	padding: 0; 
@@ -34,7 +22,7 @@ img
 body 
 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	color: #333;
 }
 
@@ -53,6 +41,12 @@ a:hover, a:active
 	text-decoration:none; 
 }
 
+/* Makes Navigation in a straight line rather then list */
+ul li 
+{
+	display: inline-block;
+}
+
 /*hide elements from browser but show for doc outline*/
 
 .hidden
@@ -63,7 +57,13 @@ a:hover, a:active
 /*section is block level and no width specidied therefore stretches full screen*/
 #topBar
 {
-	background-color: #000;
+	background-color: #a7a8a5;
+	height: 20px;
+}
+
+#bottomBar
+{
+	background-color: #a7a8a5;
 	height: 20px;
 }
 
@@ -102,9 +102,11 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	margin-left: auto;
 	width: 500px;
+	word-spacing: 50px;
+	text-align: right;
 }
 
-#promo 
+#mission 
 {
 	margin-top: 40px;
 	border-bottom: solid 1px #DDD;
@@ -114,21 +116,37 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	justify-content: flex-start;
 }
 
-/*Get rid of this, here just to give different height to promo*/
-#promo p 
-{
-	line-height: 250px;
-}
-
-#promoImage 
+#missionImage 
 {
 	margin-left: auto;
 	width: 600px;
 }
 
-#promoText 
+#missionStatment 
 {
 	width: 280px;
+	text-align: left;
+	line-height: 5;
+	padding: 10px;
+}
+
+#flow
+{
+	border: none;
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+#flowText 
+{
+
+	text-align: left;
+	line-height: 18px ;
+	padding: 10px;
 }
 
 #productInfo 
@@ -141,15 +159,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-bottom: 40px;
 }
 
-/*Get rid of this, here just to give different height to productInfo*/
-#productInfo p 
-{
-	line-height: 300px;
-}
-
 .productDesc 
 {
-	width: 200px;
+	width: 260px;
+	height: 220px;
 }
 
 #mainFooter 
@@ -163,7 +176,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #footerNav 
 {
+	margin-left: auto;
 	width: 500px;
+	word-spacing: 50px;
+	text-align: left;
 }
 
 #copyRight 
