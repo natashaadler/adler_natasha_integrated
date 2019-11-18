@@ -133,9 +133,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #flow
 {
 	border: none;
-	margin-top: 40px;
+	margin-top: 60px;
 	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
@@ -149,26 +149,32 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding: 10px;
 }
 
+.productTitle
+{
+	margin: 40px 0px 0px 10px;
+}
+
 #productInfo 
 {
-	margin-top: 20px;
+	margin-top: 40px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 	border-bottom: solid 1px #DDD;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 }
 
 .productDesc 
 {
-	width: 260px;
+	/*width: 260px;
 	height: 220px;
-	line-height: 25px;
+	line-height: 25px;*/
 }
 
+/* maybe Use min and max to define size*/
 .productDesc img
 {
-	width: 260px;
+	/*width: 260px; */
 	height: 220px;
 }
 
