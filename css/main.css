@@ -145,24 +145,36 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 
 	text-align: left;
-	line-height: 18px ;
+	line-height: 20px ;
 	padding: 10px;
 }
 
 #productInfo 
 {
-	margin-top: 40px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
+	padding-bottom: 70px;
 }
 
 .productDesc 
 {
 	width: 260px;
 	height: 220px;
+	line-height: 25px;
+}
+
+.productDesc img
+{
+	width: 260px;
+	height: 220px;
+}
+
+.productDesc h4
+{
+	text-align: center;
 }
 
 #mainFooter 
