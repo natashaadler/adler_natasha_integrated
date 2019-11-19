@@ -104,6 +104,13 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 500px;
 	word-spacing: 50px;
 	text-align: right;
+	display: flex;
+	flex-direction: row;
+}
+
+.navbox
+{
+	background-color: red;
 }
 
 #mission 
@@ -130,10 +137,22 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding: 10px;
 }
 
-#flow
+.missionTop
+{
+	margin: 0;
+	padding: 0;
+}
+
+.missionBottom
+{
+	margin: 0;
+	padding: 0;
+}
+
+#flow1
 {
 	border: none;
-	margin-top: 60px;
+	margin-top: 20px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 30px;
 	display: flex;
@@ -141,7 +160,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	justify-content: flex-start;
 }
 
-#flowText 
+#flow1Text 
 {
 
 	text-align: left;
@@ -151,31 +170,26 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .productTitle
 {
-	margin: 40px 0px 0px 10px;
+	margin: 30px 0px 0px 10px;
 }
 
 #productInfo 
 {
-	margin-top: 40px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 30px;
-}
-
-.productDesc 
-{
-	/*width: 260px;
-	height: 220px;
-	line-height: 25px;*/
+	background-color: #ebffff;
 }
 
 /* maybe Use min and max to define size*/
 .productDesc img
 {
-	/*width: 260px; */
+	min-width: 260px;
 	height: 220px;
+	margin-top: 40px;
 }
 
 .productDesc h4
