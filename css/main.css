@@ -57,13 +57,13 @@ ul li
 /*section is block level and no width specidied therefore stretches full screen*/
 #topBar
 {
-	background-color: #a7a8a5;
+	background-color: #53608F;
 	height: 20px;
 }
 
 #bottomBar
 {
-	background-color: #a7a8a5;
+	background-color: #53608F;
 	height: 20px;
 }
 
@@ -82,18 +82,23 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*This is a flex container*/
 #mainHeader
 {
-	margin-top: 40px;
-	padding-bottom: 40px;
+	margin-top: 20px;
+	padding-bottom: 20px;
 	display: flex;
 	flex-direction: row;
-  	justify-content: flex-start;
+  	justify-content: space-between;
 	border-bottom: solid 1px #DDD;
 }
 
 /*This is a flex item*/
 #logo
 {
-	width: 200px;
+	margin-right: 200px;
+}
+
+#logo img
+{
+	width: 280px;
 }
 
 /*This is also a flex item*/
@@ -101,16 +106,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #mainNav 
 {
 	margin-left: auto;
-	width: 500px;
 	word-spacing: 50px;
 	text-align: right;
 	display: flex;
 	flex-direction: row;
-}
-
-.navbox
-{
-	background-color: red;
+	margin: 50px 50px 0px 0px;
+	font-size: 20px;
 }
 
 #mission 
@@ -120,33 +121,35 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
-  	justify-content: flex-start;
+  	justify-content: space-between;
 }
 
-#missionImage 
+#missionImage img
 {
-	margin-left: auto;
-	width: 600px;
+	width: 606px;
 }
 
 #missionStatment 
 {
 	width: 280px;
 	text-align: left;
-	line-height: 5;
 	padding: 10px;
+	margin: 20px 0px 20px 0px;
+	color: #353e5c;
 }
 
 .missionTop
 {
-	margin: 0;
 	padding: 0;
+	font-size: 50px;
 }
 
 .missionBottom
 {
-	margin: 0;
+	/*margin: 0;*/
 	padding: 0;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 #flow1
@@ -175,13 +178,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #productInfo 
 {
-	margin-top: 20px;
+	
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 	border-bottom: solid 1px #DDD;
-	padding-bottom: 30px;
-	background-color: #ebffff;
+	padding-bottom: 40px;
 }
 
 /* maybe Use min and max to define size*/
@@ -189,12 +191,15 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	min-width: 260px;
 	height: 220px;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
-.productDesc h4
+.productDesc p
 {
+	margin-top: 10px;
 	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 #mainFooter 
@@ -208,10 +213,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #footerNav 
 {
-	margin-left: auto;
-	width: 500px;
+	margin-right: auto;
 	word-spacing: 50px;
 	text-align: left;
+
 }
 
 #copyRight 
