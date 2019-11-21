@@ -98,7 +98,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #logo img
 {
-	width: 280px;
+	width: 260px;
 }
 
 /*This is also a flex item*/
