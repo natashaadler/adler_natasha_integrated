@@ -58,7 +58,7 @@ ul li
 #topBar
 {
 	background-color: #53608F;
-	height: 20px;
+	height: 15px;
 }
 
 #bottomBar
@@ -87,7 +87,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
+	/*border-bottom: solid 1px #53608F;*/
 }
 
 /*This is a flex item*/
@@ -114,11 +114,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	font-size: 20px;
 }
 
+/* HOME - mission statment or slogan */
 #mission 
 {
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
@@ -126,51 +125,56 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #missionImage img
 {
-	width: 606px;
+	width: 100%;
 }
 
 #missionStatment 
 {
-	width: 280px;
-	text-align: left;
-	padding: 10px;
-	margin: 20px 0px 20px 0px;
-	color: #353e5c;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
 }
 
 .missionTop
 {
-	padding: 0;
-	font-size: 50px;
+	font-size: 60px;
 }
 
 .missionBottom
 {
-	/*margin: 0;*/
 	padding: 0;
 	font-size: 20px;
-	line-height: 30px;
 }
 
-#flow1
+/* HOME - about flow statment */
+#flowTitle
+{
+	color: #454545;
+}
+
+#flow
 {
 	border: none;
 	margin-top: 20px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 1px #53608F;
 	padding-bottom: 30px;
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
 }
 
-#flow1Text 
+#flowText 
 {
 
 	text-align: left;
-	line-height: 20px ;
-	padding: 10px;
+	line-height: 22px ;
+	padding: 20px 10px 40px 20px;
+	background-color: hsl(225, 100%, 95%);
 }
 
+/* HOME - Find Your Flow */
 .productTitle
 {
 	margin: 30px 0px 0px 10px;
@@ -182,11 +186,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 1px #53608F;
 	padding-bottom: 40px;
 }
 
-/* maybe Use min and max to define size*/
 .productDesc img
 {
 	min-width: 260px;
@@ -202,6 +205,45 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	font-weight: bold;
 }
 
+/* HOME - Values */
+#flowValuesTitle
+{
+	margin-top: 30px;
+}
+
+.ourValues
+{
+	line-height: 20px;
+}
+
+.flowValues1
+{
+	padding: 20px 10px 40px 20px;
+	background-color: hsl(225, 100%, 95%);
+
+}
+
+#flowValues2
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	padding: 20px;
+	margin: 30px;
+	/*background-color: #53608F; */
+}
+
+.flowValuesInfo1
+{
+
+}
+
+.box1 .box2 .box3 .box4 .box5 .box6
+{
+	
+}
+
+/*HOME - Footer */
 #mainFooter 
 {
 	margin-top: 40px;
@@ -225,53 +267,52 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 310px;
 }
 
-/*Page 2 - Notice we are using one style sheet for all of the pages*/
+/*Page 2 - ABOUT*/
 
-#contentCon {
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: flex-start;
-}
-
-/*Get rid of this, here just to give different height to promo*/
-#contentCon p 
-{
-	line-height: 630px;
-}
-
-#content1 
-{
-	width: 440px;
-}
-
-#content2 
-{
-	margin-left: auto;
-	width: 440px;
-}
-
-/*Page 3*/
-
-#productImages 
+#about
 {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 1px #353e5c;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 }
 
-/*Get rid of this, here just to give different height*/
-#productImages p
+#aboutImage img
 {
-	line-height: 250px;
+	width: 400px;
 }
 
-.productImg 
+#aboutFlow
+{
+	width: 500px;
+	text-align: left;
+	padding: 10px;
+	margin: 20px 0px 20px 0px;
+	color: #353e5c;
+}
+#productTitle
+{
+	margin-top: 40px;
+}
+
+#productDescription
+{
+	margin-top: 10px;
+	border-bottom: solid 1px #353e5c;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+}
+
+.aboutProductInfo h3
+{
+	text-align: center;
+}
+
+.aboutProductInfo
 {
 	width: 280px;
 }
@@ -280,23 +321,40 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #contentAreaBig
 {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 1px #353e5c;
 	padding-bottom: 40px;
 }
 
-/*Get rid of this, here just to give different height*/
-#contentAreaBig p 
+.instructor
 {
-	line-height: 300px;
+	margin-top: 40px;
+	border-bottom: solid 1px #353e5c;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
 }
 
-#promoImageBig
+.instructorTitle
 {
-	width: 920px;
+	margin-top: 40px;
 }
 
+.aboutInstructor
+{
+	width: 600px;
+	text-align: left;
+	padding: 10px;
+	margin: 20px 0px 20px 0px;
+	color: #353e5c;
+}
 
-/*Page 4*/
+.instructorImage img
+{
+	width: 280px;
+}
+
+/*Page 3 - CONTACT*/
 
 .productDescLargeLeft 
 {
