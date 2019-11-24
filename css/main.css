@@ -170,7 +170,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 	text-align: left;
 	line-height: 22px ;
-	padding: 20px 10px 20px 20px;
+	padding: 10px 10px 20px 30px;
 	background-color: hsl(225, 100%, 95%);
 }
 
@@ -179,6 +179,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	margin: 20px 0px 0px 10px;
 	padding-left: 20px;
+	color: #454545;
 }
 
 #productInfo 
@@ -207,8 +208,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /* HOME - Values */
 #ourValuesTitle
 {
-	margin-top: 20px;
-	padding-left: 20px
+	color: #454545;
+	margin-left: 20px;
 }
 
 .ourValues
@@ -223,7 +224,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 .ourValues1
 {
-	padding: 10px 10px 20px 10px;
+	padding: 10px 10px 10px 10px;
 	background-color: hsl(225, 100%, 95%);
 
 }
@@ -233,7 +234,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	display: flex;
 	flex-direction: row;
   	justify-content: center;
-	margin: 2% 1% 0% 1%;
+	margin: 20px 10px 20px 10px;
 	/*background-color: #53608F; */
 }
 
@@ -241,10 +242,22 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	width: 30%;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
-	background-color: pink;
+	background-color: #9fa1bf;
+
+}
+
+.ourValuesInfo p
+{
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+/*align left or right maybe*/
+.ourValuesInfo img
+{
 
 }
 
@@ -274,11 +287,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /*Page 2 - ABOUT*/
 
+/* ABOUT - What is Flow */
 #about
 {
-	margin-top: 40px;
-	border-bottom: solid 1px #353e5c;
-	padding-bottom: 40px;
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
@@ -286,27 +298,43 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #aboutImage img
 {
-	width: 400px;
+	width: 355px;
+	padding-top: 20px;
 }
 
 #aboutFlow
 {
 	width: 500px;
 	text-align: left;
-	padding: 10px;
+	padding: 30px 30px 30px 40px;
 	margin: 20px 0px 20px 0px;
 	color: #353e5c;
-}
-#productTitle
-{
-	margin-top: 40px;
+	background-color: hsl(225, 100%, 95%);
+	line-height: 20px;
 }
 
-#productDescription
+#aboutFlow h2
+{
+	margin-left: 20px;
+}
+
+/* ABOUT - Whats your Flow (Types of yoga) */
+#aboutProduct
+{
+	background-color: #c3c5db;
+	padding: 10px 10px 0px 10px;
+}
+
+#aboutProductTitle
+{
+	margin: 10px 0px 0px 20px;
+	color: #454545;
+}
+
+#aboutProductDescription
 {
 	margin-top: 10px;
-	border-bottom: solid 1px #353e5c;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
@@ -319,44 +347,97 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .aboutProductInfo
 {
-	width: 280px;
+	/*width: 280px;*/
+	width: 30%;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: hsl(225, 100%, 95%);
 }
 
+.aboutProductInfo p
+{
+	padding: 0px 20px 10px 20px;
+	line-height: 20px;
+	text-align: left;
+}
 
+/* ABOUT - Schedule */
 #contentAreaBig
 {
-	margin-top: 40px;
-	border-bottom: solid 1px #353e5c;
+	margin-top: 30px;
 	padding-bottom: 40px;
+}
+
+#contentAreaBig p
+{
+	margin-bottom: 20px;
+}
+
+#contentAreaBig img
+{
+	width: 100%;
+}
+
+/*ABOUT - Instructors*/
+.instructorTitleMain
+{
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .instructor
 {
-	margin-top: 40px;
-	border-bottom: solid 1px #353e5c;
-	padding-bottom: 40px;
+	margin-top: 10px;
+	padding-bottom: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
+  	background-color: #c3c5db;
 }
 
 .instructorTitle
 {
-	margin-top: 40px;
+	margin-top: 22px;
+	margin-left: 20px;
 }
 
 .aboutInstructor
 {
 	width: 600px;
-	text-align: left;
-	padding: 10px;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 10px 20px;
+	padding: 0px 20px 0px 20px;
 	color: #353e5c;
+	background-color: white;
+}
+
+.aboutInstructor p
+{
+	padding: 0px 0px 20px 10px;
+	line-height: 20px;
+
 }
 
 .instructorImage img
 {
 	width: 280px;
+	height: 298px;
+	padding: 20px 20px 0px 20px;
+}
+
+.aboutInstructor1
+{
+	width: 600px;
+	margin: 20px 20px 10px 0px;
+	padding: 0px 20px 0px 10px;
+	color: #353e5c;
+	background-color: white;
+}
+
+.aboutInstructor1 p
+{
+	padding: 0px 0px 20px 10px;
+	line-height: 20px;
 }
 
 /*Page 3 - CONTACT*/
