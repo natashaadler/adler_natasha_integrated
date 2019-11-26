@@ -245,7 +245,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
-	background-color: #9fa1bf;
+	background-color: white;
 
 }
 
@@ -258,7 +258,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*align left or right maybe*/
 .ourValuesInfo img
 {
-
+	width: 50px;
 }
 
 /*HOME - Footer */
