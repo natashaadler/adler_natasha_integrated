@@ -128,6 +128,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #missionImage img
 {
 	width: 100%;
+	height:	380px;
+	border-radius: 5px;
 }
 
 #missionStatment 
@@ -153,6 +155,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #flowTitle
 {
 	color: #454545;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #flow
@@ -167,11 +171,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #flowText 
 {
-
+	height: 140px; 
 	text-align: left;
 	line-height: 22px ;
-	padding: 10px 10px 20px 30px;
+	padding: 10px 10px 10px 30px;
 	background-color: hsl(225, 100%, 95%);
+	border-radius: 5px;
 }
 
 /* HOME - Find Your Flow */
@@ -190,11 +195,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-bottom: 30px;
 }
 
-.productDesc img
+.productDesc img /*-------*/
 {
 	min-width: 260px;
 	height: 220px;
 	margin-top: 20px;
+	border-radius: 5px;
 }
 
 .productDesc p
@@ -209,7 +215,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #ourValuesTitle
 {
 	color: #454545;
-	margin-left: 20px;
+	margin: 15px 0px 15px 20px;
 }
 
 .ourValues
@@ -224,8 +230,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 .ourValues1
 {
+	height: 500px;
 	padding: 10px 10px 10px 10px;
 	background-color: hsl(225, 100%, 95%);
+	border-radius: 5px;
 
 }
 
@@ -240,12 +248,14 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .ourValuesInfo
 {
-	width: 30%;
+	width: 250px;
+	height: 125px;
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
 	background-color: white;
+	border-radius: 5px;
 
 }
 
@@ -273,16 +283,17 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #footerNav 
 {
+	
 	margin-right: auto;
-	word-spacing: 50px;
+	word-spacing: 40px;
 	text-align: left;
-
+	width: 260px;
 }
 
 #copyRight 
 {
 	margin-left: auto;
-	width: 310px;
+	width: 300px;
 }
 
 /*Page 2 - ABOUT*/
@@ -299,18 +310,20 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #aboutImage img
 {
 	width: 355px;
-	padding-top: 20px;
+	height: 360px;
+	border-radius: 5px 0px 0px 5px;
 }
 
 #aboutFlow
 {
 	width: 500px;
+	height: 300px;
 	text-align: left;
 	padding: 30px 30px 30px 40px;
-	margin: 20px 0px 20px 0px;
-	color: #353e5c;
+	margin-bottom: 20px;
 	background-color: hsl(225, 100%, 95%);
 	line-height: 20px;
+	border-radius: 0px 5px 5px 0px;
 }
 
 #aboutFlow h2
@@ -321,20 +334,22 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /* ABOUT - Whats your Flow (Types of yoga) */
 #aboutProduct
 {
-	background-color: #c3c5db;
 	padding: 10px 10px 0px 10px;
+	height: 365px;
+	border-radius: 5px;
 }
 
 #aboutProductTitle
 {
-	margin: 10px 0px 0px 20px;
+	margin: 15px 0px 15px 20px;
 	color: #454545;
 }
 
 #aboutProductDescription
 {
 	margin-top: 10px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
+	height: 290px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
@@ -347,12 +362,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .aboutProductInfo
 {
-	/*width: 280px;*/
 	width: 30%;
 	padding: 10px;
 	margin: 5px;
 	border-radius: 5px;
-	background-color: hsl(225, 100%, 95%);
+	/*background-color: hsl(225, 100%, 95%);*/
+	background-color: #c3c5db;
 }
 
 .aboutProductInfo p
@@ -377,38 +392,41 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #contentAreaBig img
 {
 	width: 100%;
+	height: 400px;
+	border-radius: 5px;
 }
 
 /*ABOUT - Instructors*/
 .instructorTitleMain
 {
-	margin-top: 20px;
-	margin-left: 20px;
+	margin: 20px 0px 20px 20px;
 }
 
 .instructor
 {
-	margin-top: 10px;
+	margin-top: 20px;
 	padding-bottom: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
-  	background-color: #c3c5db;
+  	/*background-color: #c3c5db;*/
+  	background-color: hsl(225, 100%, 95%);
+  	border-radius: 5px;
 }
 
 .instructorTitle
 {
-	margin-top: 22px;
-	margin-left: 20px;
+	margin: 22px 0px 22px 20px;
 }
 
 .aboutInstructor
 {
 	width: 600px;
+	height: 300px;
 	margin: 20px 0px 10px 20px;
 	padding: 0px 20px 0px 20px;
-	color: #353e5c;
 	background-color: white;
+	border-radius: 5px;
 }
 
 .aboutInstructor p
@@ -421,17 +439,19 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 .instructorImage img
 {
 	width: 280px;
-	height: 298px;
+	height: 300px;
 	padding: 20px 20px 0px 20px;
+	border-radius: 5px;
 }
 
 .aboutInstructor1
 {
 	width: 600px;
+	height: 300px;
 	margin: 20px 20px 10px 0px;
-	padding: 0px 20px 0px 10px;
-	color: #353e5c;
+	padding: 0px 20px 0px 20px;
 	background-color: white;
+	border-radius: 5px;
 }
 
 .aboutInstructor1 p
