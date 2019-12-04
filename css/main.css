@@ -4,14 +4,12 @@
 /*basic reset*/
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
 
-div,p,body,header,footer,section,article,nav
-{ 
+div,p,body,header,footer,section,article,nav{ 
 	margin: 0; 
 	padding: 0; 
 }	
 
-img 
-{ 
+img { 
 	border: none; /*Remove border if image is a link*/
 	margin: 0; 
 	padding: 0; 
@@ -19,8 +17,7 @@ img
 
 /*html selectors*/
 
-body 
-{
+body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #333;
@@ -31,28 +28,23 @@ body
 a:visited is for visited, and just a applies to both.*/
 /*a will also style anchor links*/
 
-a:link, a:visited 
-{ 
+a:link, a:visited { 
  	text-decoration:none; 	
  	color: inherit;
 }
 
-a:hover, a:active 
-{ 
+a:hover, a:active { 
 	text-decoration:none; 
 	color: #53608F;
 }
 
 /* Makes Navigation in a straight line rather then list */
-ul li 
-{
+ul li {
 	display: inline-block;
 }
 
 /*hide elements from browser but show for doc outline*/
-
-.hidden
-{
+.hidden{
 	display: none;
 }
 
@@ -69,21 +61,14 @@ ul li
 	height: 20px;
 } */
 
-/*Site Container*/
-/*This is essentially a box that we place the whole site in.  
-We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 20px (960px) so it fits on 1024x768 screens.*/
-
-#siteContainer 
-{
+#siteContainer {
 	margin: 0 auto;
 	width: 920px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-/*This is a flex container*/
-#mainHeader
-{
+#mainHeader{
 	margin-top: 20px;
 	padding-bottom: 20px;
 	display: flex;
@@ -92,21 +77,15 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	/*border-bottom: solid 1px #53608F;*/
 }
 
-/*This is a flex item*/
-#logo
-{
+#logo{
 	margin-right: 200px;
 }
 
-#logo img
-{
+#logo img{
 	width: 300px;
 }
 
-/*This is also a flex item*/
-/*We use margin left auto to send it all the way to the right*/
-#mainNav 
-{
+#mainNav {
 	margin-left: auto;
 	word-spacing: 50px;
 	text-align: right;
@@ -116,53 +95,47 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	font-size: 20px;
 }
 
-/* HOME - mission statment or slogan */
-#mission 
-{
+/* MISSION - Statment and Image - on all pages*/
+#mission {
 	margin-top: 10px;
 }
 
-#missionImage img
-{
+#missionImage img{
 	width: 100%;
 	height:	380px;
 	border-radius: 5px;
 }
 
-#missionStatment 
-{
+#missionStatment {
 	position: absolute;
-	top: 45%;
+	top: 40%;
   	left: 40%;
   	transform: translate(-50%, -50%);
   	color: white;
 }
 
-.missionLogo 
-{
+.missionLogo {
 	font-size: 30px;
 }
 
-.missionTop
-{
+.missionTop{
 	font-size: 60px;
 }
 
-.missionBottom
-{
+.missionBottom{
 	font-size: 30px;
 }
 
-/* HOME - about flow statment */
-#flowTitle
-{
+/* -- START -- Page 1 -- HOME -- */
+
+/* -- HOME -- About Flow Statments */
+#flowTitle{
 	color: #454545;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
-#flow
-{
+#flow{
 	border: none;
 	margin-top: 20px;
 	padding-bottom: 10px;
@@ -171,8 +144,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	justify-content: flex-start;
 }
 
-#flowText 
-{
+#flowText {
 	height: 140px; 
 	text-align: left;
 	line-height: 22px ;
@@ -181,75 +153,59 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	border-radius: 5px;
 }
 
-/* HOME - Find Your Flow */
-/*.productTitle
-{
-	margin: 20px 0px 0px 10px;
-	padding-left: 20px;
-	color: #454545;
-}*/
+/* -- HOME -- Find Your Flow */
 
-#productInfo 
-{
+#productInfo {
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 	padding-bottom: 30px;
 }
 
-.productDesc img /*-------*/
-{
+.productDesc img{
 	min-width: 260px;
 	height: 220px;
 	margin-top: 20px;
 	border-radius: 5px;
 }
 
-.productDesc p
-{
+.productDesc p{
 	margin-top: 10px;
 	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
 }
 
-/* HOME - Values */
-#ourValuesTitle
-{
+/* -- HOME -- Values */
+#ourValuesTitle{
 	color: #454545;
 	margin: 15px 0px 15px 20px;
 }
 
-.ourValues
-{
+.ourValues{
 	line-height: 22px;
 	padding: 10px 10px 0px 20px;
 }
 
-.ourValues p
-{
+.ourValues p{
 	margin-bottom: 20px;
 }
-.ourValues1
-{
+
+.ourValues1{
 	height: 500px;
 	padding: 10px 10px 10px 10px;
 	background-color: #f0f1fa;
 	border-radius: 5px;
-
 }
 
-.ourValues2
-{
+.ourValues2{
 	display: flex;
 	flex-direction: row;
   	justify-content: center;
 	margin: 20px 10px 20px 10px;
-	/*background-color: #53608F; */
 }
 
-.ourValuesInfo
-{
+.ourValuesInfo{
 	width: 250px;
 	height: 125px;
 	text-align: center;
@@ -258,118 +214,68 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	border-radius: 5px;
 	background-color: white;
 	border-radius: 5px;
-
 }
 
-.ourValuesInfo p
-{
+.ourValuesInfo p{
 	margin-bottom: 20px;
 	margin-top: 5px;
 }
 
-/*align left or right maybe*/
-.ourValuesInfo img
-{
+.ourValuesInfo img{
 	width: 50px;
 }
 
-/*HOME - Footer */
-#mainFooter 
-{
-	margin-top: 40px;
-	margin-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: flex-start;
-}
+/* -- End -- Page 1 -- HOME -- */
 
-#footerNav 
-{
-	
-	margin-right: auto;
-	word-spacing: 40px;
-	text-align: left;
-	width: 260px;
-}
+/* -- Start -- Page 2 -- ABOUT -- */
 
-#copyRight 
-{
-	margin-left: auto;
-	width: 300px;
-}
-
-/*Page 2 - ABOUT*/
-
-/* ABOUT - What is Flow */
-#promo
-{
-	margin-top: 10px;
-}
-
-#promoImageBig img
-{
-	width: 920px;
-	height: 380px;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	margin-top: 20px;
-}
-
-.aboutText
-{
+/* -- ABOUT -- What is Flow */
+.aboutTextLg{
 	position: absolute;
-	top: 36%;
-  	left: 30%;
+	top: 45%;
+  	left: 45%;
   	transform: translate(-50%, -50%);
   	color: white;
-	font-size: 70px;
+	font-size: 60px;
 }
 
-#about
-{
+#about{
 	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 }
 
-#aboutImage img
-{
+#aboutImage img{
 	width: 355px;
 	height: 330px;
 	border-radius: 5px 0px 0px 5px;
 }
 
-#aboutFlow
-{
+#aboutFlow{
 	text-align: left;
 	padding: 30px 30px 30px 40px;
-	/*background-color: hsl(225, 100%, 95%);*/
 	line-height: 20px;
 	border-radius: 5px;
 }
 
-#aboutFlow h2
-{
+#aboutFlow h2{
 	margin-left: 20px;
 }
 
-/* ABOUT - Whats your Flow (Types of yoga) */
-#aboutProduct
-{
+/* -- ABOUT -- Whats your Flow (Types of yoga= product) */
+#aboutProduct{
 	padding: 10px 0px 0px 0px;
 	height: 310px;
 	border-radius: 5px;
 }
 
-#aboutProductTitle
-{
+#aboutProductTitle{
 	margin: 15px 0px 15px 20px;
 	color: #454545;
 }
 
-#aboutProductDescription
-{
+#aboutProductDescription{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: flex;
@@ -377,77 +283,64 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	justify-content: space-between;
 }
 
-.aboutProductInfo h3
-{
+.aboutProductInfo h3{
 	text-align: center;
 }
 
-.aboutProductInfo
-{
+.aboutProductInfo{
 	width: 30%;
 	padding: 10px 0px 10px 0px;
 	margin: 5px 0px 5px 0px;
 	border-radius: 5px;
-	/*background-color: hsl(225, 100%, 95%);*/
 	background-color: #f0f1fa;
-	/*opacity: 0.6;*/
 }
 
-.aboutProductInfo img
-{
+.aboutProductInfo img{
 	width: 50px;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
 }
 
-.aboutProductInfo p
-{
+.aboutProductInfo p{
 	padding: 0px 20px 0px 20px;
 	line-height: 20px;
 	text-align: left;
 }
 
-/* ABOUT - Schedule */
-#contentAreaBig
-{
+/* -- ABOUT -- Schedule */
+#contentAreaBig{
 	margin-top: 30px;
 	padding-bottom: 40px;
 }
 
-#contentAreaBig p
-{
+#contentAreaBig p{
 	margin-bottom: 20px;
 }
 
-#contentAreaBig img
-{
+#contentAreaBig img{
 	width: 920px;
 }
 
-/*ABOUT - Instructors*/
-.instructorTitleMain
-{
+/* -- ABOUT -- Two Instructors */
+.instructorTitleMain{
 	padding: 10px;
 	margin-top: 10px;
 	margin-left: 40px;
 }
 
-.instructorTitleMain h2
-{
+.instructorTitleMain h2{
 	font-size: 25px;
 	margin: 10px;
 }
 
-#instructorContainer
-{
+#instructorContainer{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.instructor
-{
+.instructor{
 	margin: 20px;
 	padding: 20px;
 	display: flex;
@@ -458,27 +351,23 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	border-radius: 5px;
 }
 
-.instructorTitle
-{
+.aboutInstructor h3{
 	margin: 22px 0px 22px 20px;
 }
 
-.aboutInstructor
-{
+.aboutInstructor{
 	padding: 0px 20px 0px 20px;
 	background-color: white;
 	border-radius: 5px;
 }
 
-.aboutInstructor p
-{
+.aboutInstructor p{
 	margin: 0px 0px 20px 10px;
 	line-height: 20px;
 
 }
 
-.instructorImage
-{
+.instructorImage{
 	border-radius: 5px;
 	display: flex;
 	flex-direction: row;
@@ -492,15 +381,133 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	height: 300px;
 }
 
-/*Page 3 - CONTACT*/
+/* -- End -- Page 2 -- ABOUT -- */
 
-.productDescLargeLeft 
-{
-	width: 410px;
+/* -- Start -- Page 3 -- CONTACT -- */
+
+/* -- CONTACT -- */
+
+#mainContact {
+  width: 920px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
-.productDescLargeRight 
-{
-	width: 410px;
+#mainContact h2 {
+  font-size: 30px;
+  color: #2073a8;
+  background-color: #ddeff7;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+}
+
+#contactArea {
+  width: 460px;
+  border-right: solid 1px #CCC;
+  margin-bottom: 30px;
+}
+
+
+#contactText {
+  font-size: 21px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 340px;
+}
+
+#contactForm {
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+}
+
+
+input, textarea  {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+}
+
+#submit {
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #2073a8;
+  font-size: 14px;
+  border: 1px solid #003471;
+}
+
+#mapArea {
+  width: 380px;
+  margin-left: 90px;
+}
+
+
+#mapArea h3 {
+  font-size: 21px;
+  margin-top: 0;
+}
+
+#mapArea ul {
+  list-style-type: none;
+  padding: 20px;
+  background-color: #f0f1fa;
+} 
+
+#mapArea ul li {
+	font-size: 15px;
+}
+
+/* -- End -- Page 3 -- CONTACT -- */
+
+/* -- FOOTER -- All pages */
+
+#mainFooter {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+#footerNav {
+	
+	margin-right: auto;
+	word-spacing: 40px;
+	text-align: left;
+	width: 260px;
+}
+
+#copyRight {
+	margin-left: auto;
+	width: 300px;
 }
 

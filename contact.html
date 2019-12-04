@@ -20,13 +20,53 @@
                 </ul>
             </nav><!--end mainNav-->
         </header><!--end mainHeader-->
-        <section id="promo">
-        	<div id="promoImageBig"><p>Promo Image</p></div><!--end promoImage-->
-        </section><!--end promo-->
-        <section id="productInfo">
-        	<section class="productDescLargeLeft"><p>Product Image &amp; Text</p></section><!--end productDesc1-->
-            <section class="productDescLargeRight"><p>Product Image &amp; Text</p></section><!--end productDesc4-->
-        </section><!--end productInfo-->
+        <section id="mission">
+        	<div id="missionStatment">
+                <h2 class= "hidden"> Mission Statment and Photo</h2>
+                <!--<span class="missionLogo"><strong>Flow Yoga Studio<strong></span> -->
+                <br>
+                <span class="missionTop">Go With the Flow </span> 
+                <br><br>
+                <span class="missionBottom">Start your Journey Today.</span>
+            </div><!--end missionText-->
+            <div id="missionImage">
+                <img src="images/contact_main_image.png" alt="Main Flow Image">
+        </section><!--end mission-->
+       <section id="contactArea"><!--start contactArea-->
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText"><strong> Contact Us Here.
+                </strong></p> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your Name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="9"></textarea>
+                    
+                    <label for="human">What is 5 + 5?</label>
+                    <input type="text" required id="human" size="30" placeholder="What is 5 + 5?">
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+            </section><!--end contactArea-->  
+            
+            <section id="mapArea"><!--start mapArea-->
+                <h3>Visit Us</h3>
+                <ul>
+                    <li>Flow Yoga Studio, </li>
+                    <li>647 Richmond st. </li>
+                    <li>London, Ontario </li>
+                    <li>Phone: 519-444-4444</li>
+                </ul>    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.309096878947!2d-81.25443848452358!3d42.992825579149546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef1ff9d496971%3A0xa51be822652f0d1a!2sModo%20Yoga%20London!5e0!3m2!1sen!2sca!4v1575429200937!5m2!1sen!2sca" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section><!--end mapArea-->      
+        </section><!--end mainContact-->
         <footer id="mainFooter">
             <div id="footerNav">
                 <h2 class="hidden">Footer Navigation</h2>
