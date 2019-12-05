@@ -70,7 +70,6 @@ ul li {
 
 #mainHeader{
 	margin-top: 20px;
-	padding-bottom: 20px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
@@ -82,7 +81,7 @@ ul li {
 }
 
 #logo img{
-	width: 300px;
+	width: 100px;
 }
 
 #mainNav {
@@ -91,40 +90,69 @@ ul li {
 	text-align: right;
 	display: flex;
 	flex-direction: row;
-	margin: 50px 50px 0px 0px;
+	margin-top: 50px;
 	font-size: 20px;
 }
 
 /* MISSION - Statment and Image - on all pages*/
+/* Start -- MISSION -- home page */
 #mission {
 	margin-top: 10px;
 }
 
-#missionImage img{
+#mission img {
 	width: 100%;
-	height:	380px;
 	border-radius: 5px;
 }
 
 #missionStatment {
 	position: absolute;
-	top: 40%;
-  	left: 40%;
+	top: 45%;
+  	left: 42%;
   	transform: translate(-50%, -50%);
   	color: white;
+  	text-align: center;
 }
 
-.missionLogo {
-	font-size: 30px;
-}
-
-.missionTop{
+#missionTop{
 	font-size: 60px;
 }
 
-.missionBottom{
+#missionBottom{
 	font-size: 30px;
 }
+
+/* End -- MISSION -- Home page */
+
+/* Start -- MISSION -- About/Contact */
+
+.mission {
+	margin-top: 10px;
+}
+
+.missionImage img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.missionStatment {
+	position: absolute;
+	top: 72%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	text-align: center;
+}
+
+.missionTop{
+	font-size: 35px;
+}
+
+.missionBottom{
+	font-size: 18px;
+}
+
+/* End -- MISSION -- About/Contact */
 
 /* -- START -- Page 1 -- HOME -- */
 
@@ -310,8 +338,13 @@ ul li {
 
 /* -- ABOUT -- Schedule */
 #contentAreaBig{
-	margin-top: 30px;
 	padding-bottom: 40px;
+}
+
+#contentAreaBig h2{
+	margin: 0px 0px 15px 40px;
+	font-size: 25px;
+	padding: 10px;
 }
 
 #contentAreaBig p{
@@ -320,6 +353,7 @@ ul li {
 
 #contentAreaBig img{
 	width: 920px;
+	border-radius: 5px;
 }
 
 /* -- ABOUT -- Two Instructors */
@@ -421,6 +455,11 @@ ul li {
   width: 340px;
 }
 
+#contactText img{
+	width: 50px;
+	padding: 0px;
+}
+
 #contactForm {
   margin-top: 30px;
 }
@@ -510,4 +549,5 @@ input, textarea  {
 	margin-left: auto;
 	width: 300px;
 }
+
 
