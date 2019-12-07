@@ -1,4 +1,4 @@
-![This the logo for Flow](flow_logo.jpg "Flow Logo")
+![This the logo for Flow](images/flow_logo_main.png "Flow Logo")
 
 # Flow Yoga Studio
 
