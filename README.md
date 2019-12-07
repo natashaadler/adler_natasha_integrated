@@ -1,4 +1,4 @@
-![This the logo for Flow](images/flow_logo_main.png "Flow Logo")
+![This the logo for Flow](images/contact_main_image.png "Flow Logo")
 
 # Flow Yoga Studio
 
@@ -38,7 +38,7 @@ In the 'assets' subfolder is where all the working files(.psd & .ai) are, which 
 
 ### Javascript
 
-The 'js' subfolder is currently here for habbit.
+The 'js' subfolder is currently here for habit.
 
 ### Cascade Styling Sheets
 
@@ -55,7 +55,4 @@ MIT
 Thanks for checking out my beginner workflow with Github, Terminal and Sublime Text in my inegrated final.
 
 by Natasha Adler
-
-![This is a Picture of me, Natasha Adler](natasha_headshot_medium.jpg "Natasha Adler")
-
 
