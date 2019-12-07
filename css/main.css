@@ -94,6 +94,10 @@ ul li {
 	font-size: 20px;
 }
 
+.selected {
+	color: #53608F;
+}
+
 /* MISSION - Statment and Image - on all pages*/
 /* Start -- MISSION -- home page */
 #mission {
@@ -293,8 +297,6 @@ ul li {
 
 /* -- ABOUT -- Whats your Flow (Types of yoga= product) */
 #aboutProduct{
-	padding: 10px 0px 0px 0px;
-	height: 310px;
 	border-radius: 5px;
 }
 
@@ -305,7 +307,6 @@ ul li {
 
 #aboutProductDescription{
 	margin-top: 10px;
-	margin-bottom: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
@@ -313,6 +314,8 @@ ul li {
 
 .aboutProductInfo h3{
 	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .aboutProductInfo{
@@ -342,7 +345,7 @@ ul li {
 }
 
 #contentAreaBig h2{
-	margin: 0px 0px 15px 40px;
+	margin: 15px 0px 15px 40px;
 	font-size: 25px;
 	padding: 10px;
 }
@@ -358,9 +361,7 @@ ul li {
 
 /* -- ABOUT -- Two Instructors */
 .instructorTitleMain{
-	padding: 10px;
-	margin-top: 10px;
-	margin-left: 40px;
+	margin: 25px 0px 25px 40px;
 }
 
 .instructorTitleMain h2{
@@ -396,7 +397,7 @@ ul li {
 }
 
 .aboutInstructor p{
-	margin: 0px 0px 20px 10px;
+	margin: 0px 0px 20px 0px;
 	line-height: 20px;
 
 }
@@ -442,7 +443,7 @@ ul li {
 
 #contactArea {
   width: 460px;
-  border-right: solid 1px #CCC;
+  border-right: solid 2px #CCC;
   margin-bottom: 30px;
 }
 
@@ -471,8 +472,8 @@ fieldset {
 
 input, textarea  {
   font-size: 12px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding: 10px;
   width: 300px;
   height: 10px;
@@ -483,7 +484,7 @@ input, textarea  {
 }
 
 #comments {
-  width: 360px;
+  width: 300px;
   height: 200px;
 }
 
@@ -498,7 +499,7 @@ input, textarea  {
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #2073a8;
+  background-color: #53608F;
   font-size: 14px;
   border: 1px solid #003471;
 }
