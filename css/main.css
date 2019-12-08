@@ -10,7 +10,7 @@ div,p,body,header,footer,section,article,nav{
 }	
 
 img { 
-	border: none; /*Remove border if image is a link*/
+	border: none;
 	margin: 0; 
 	padding: 0; 
 }
@@ -48,19 +48,6 @@ ul li {
 	display: none;
 }
 
-/*section is block level and no width specidied therefore stretches full screen*/
-/*#topBar
-{
-	background-color: #53608F;
-	height: 15px;
-}
-
-#bottomBar
-{
-	background-color: #53608F;
-	height: 20px;
-} */
-
 #siteContainer {
 	margin: 0 auto;
 	width: 920px;
@@ -73,7 +60,6 @@ ul li {
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
-	/*border-bottom: solid 1px #53608F;*/
 }
 
 #logo{
@@ -98,8 +84,7 @@ ul li {
 	color: #53608F;
 }
 
-/* MISSION - Statment and Image - on all pages*/
-/* Start -- MISSION -- home page */
+/* Start -- MISSION -- Home Page */
 #mission {
 	margin-top: 10px;
 }
@@ -158,9 +143,9 @@ ul li {
 
 /* End -- MISSION -- About/Contact */
 
-/* -- START -- Page 1 -- HOME -- */
+/* START -- Page 1 -- HOME -- */
 
-/* -- HOME -- About Flow Statments */
+/* HOME -- About Flow Statments */
 #flowTitle{
 	color: #454545;
 	margin-top: 15px;
@@ -185,7 +170,7 @@ ul li {
 	border-radius: 5px;
 }
 
-/* -- HOME -- Find Your Flow */
+/* HOME -- Find Your Flow */
 
 #productInfo {
 	display: flex;
@@ -208,7 +193,7 @@ ul li {
 	font-weight: bold;
 }
 
-/* -- HOME -- Values */
+/* HOME -- Values */
 #ourValuesTitle{
 	color: #454545;
 	margin: 15px 0px 15px 20px;
@@ -261,7 +246,7 @@ ul li {
 
 /* -- Start -- Page 2 -- ABOUT -- */
 
-/* -- ABOUT -- What is Flow */
+/* ABOUT -- What is Flow */
 .aboutTextLg{
 	position: absolute;
 	top: 45%;
@@ -295,7 +280,7 @@ ul li {
 	margin-left: 20px;
 }
 
-/* -- ABOUT -- Whats your Flow (Types of yoga= product) */
+/* ABOUT -- Whats your Flow (Types of yoga= product) */
 #aboutProduct{
 	border-radius: 5px;
 }
@@ -339,7 +324,7 @@ ul li {
 	text-align: left;
 }
 
-/* -- ABOUT -- Schedule */
+/* ABOUT -- Schedule */
 #contentAreaBig{
 	padding-bottom: 10px;
 }
@@ -359,7 +344,7 @@ ul li {
 	border-radius: 5px;
 }
 
-/* -- ABOUT -- Two Instructors */
+/* ABOUT -- Two Instructors */
 .instructorTitleMain{
 	margin: 25px 0px 25px 40px;
 }
@@ -420,8 +405,6 @@ ul li {
 
 /* -- Start -- Page 3 -- CONTACT -- */
 
-/* -- CONTACT -- */
-
 #mainContact {
   width: 880px;
   padding-top: 20px;
@@ -441,6 +424,7 @@ ul li {
   width: 940px;
 }
 
+/* CONTACT -- Visit Us */
 #contactArea {
   width: 460px;
   border-right: solid 2px #CCC;
@@ -468,7 +452,6 @@ fieldset {
   border: none;
   padding: 0px;
 }
-
 
 input, textarea  {
   font-size: 12px;
@@ -504,6 +487,7 @@ input, textarea  {
   border: 1px solid #003471;
 }
 
+/* CONTACT -- Map Area */
 #mapArea {
   width: 380px;
   margin-left: 80px;
@@ -532,6 +516,7 @@ input, textarea  {
 	padding: 0px;
 }
 
+/* CONTACT -- Founder */
 #contactImage img{
 	width: 380px;
 	margin-top: 20px;
@@ -539,7 +524,7 @@ input, textarea  {
 
 /* -- End -- Page 3 -- CONTACT -- */
 
-/* -- FOOTER -- All pages */
+/* -- Start -- FOOTER -- All pages */
 
 #mainFooter {
 	margin-top: 40px;
@@ -562,4 +547,5 @@ input, textarea  {
 	width: 300px;
 }
 
+/* -- End -- FOOTER -- All pages */
 
